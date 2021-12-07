@@ -1,7 +1,6 @@
 # JSP 블로그 프로젝트
-​
+
 ## 환경
-​
 - windows10
 - tomcat9.0
 - mysql8.0
@@ -12,9 +11,9 @@
 - git
 ​
 
+
 ## MySQL 데이터베이스 생성 및 사용자 생성
 ​
-
 ```sql
 create user 'bloguser'@'%' identified by 'asd1234';
 GRANT ALL PRIVILEGES ON *.* TO 'bloguser'@'%';
