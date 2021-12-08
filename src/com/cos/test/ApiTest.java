@@ -63,6 +63,14 @@ public class ApiTest extends HttpServlet {
 		System.out.println(food);
 		System.out.println(recipe);
 		
+		// DB에 인설트하고 끝
+		int result = 1; // -1
+		if(result == 1) {
+			//성공 응답
+		} else {
+			// 실패 응답
+		}
+		
 		response.setContentType("text/html; charset=utf-8");
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
